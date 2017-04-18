@@ -1,5 +1,5 @@
 body {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -112,14 +112,37 @@ a {
     height: 210px;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 .bottom p {
     width: 600px;
     margin: auto;
+    line-height: 210px;
 }
 
 .footer {
-    height: 300px;
+    height: 200px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.footer li {
+    display: inline-block;
+}
+
+.footer li img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer .text {
+    font-size: 18px;
+}
+
+.footer .subtext {
+    font-size: 11px;
+    color: gray;
 }
