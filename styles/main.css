@@ -1,6 +1,7 @@
 body {
     max-width: 900px;
     margin: auto;
+    font-weight: 100;
 }
 
 li {
